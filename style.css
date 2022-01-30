@@ -1,3 +1,51 @@
-body {
-    color: pink;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* header styling */
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-container {
+  background: #beeae9;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: static;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 0px 0px;
+}
+
+/* hero border  */
+header .hero-logo {
+  position: relative;
+}
+/* 
+header .hero-logo .photo-bg{
+  position: absolute;
+  width: 360.6px;
+  height: 434.88px;
+  left: -30em;
+  top: -4em;
+  background: url("images/patternleft.png");
+  background-repeat: no-repeat;
+} */
+
+/* intro section styling */
+
