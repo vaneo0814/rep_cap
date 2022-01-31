@@ -47,15 +47,42 @@ header .hero-logo {
   background-color:#FFFFFF;
 }
 
+.section-content {
+    background: red;
+    position: relative;
+    height: 704px;
+    margin-top: 56px;
+    margin-left: 131px;
+    margin-right: 131px;
+}
 
 .header-left-col {
-  font-family: "Rubik", sans-serif!;
-  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
   font-size: 20px;
   line-height: 37.2px;
   text-transform: capitalize;
   color: #2b3237;
 }
+
+.txt-left-col, .second-txt-left-col{
+    /* color: pink; */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33.48px;
+    padding-bottom: 15px;
+}
+
+.txt-box {
+    /* background-color: orange; */
+    width: 462px;
+    position: absolute;
+    height: 599px;
+    margin-top: 30px;
+    margin-left: 240px;
+}
+
+/* survey container styling */
 
 .survey-highlights {
   width: 604px;
@@ -63,9 +90,60 @@ header .hero-logo {
   /* background: #e7f4f6; */
   background: pink;
   border-radius: 10px;
-  float: right;
-  margin-right: 100px;
+  margin-right: 250px;
+  margin-left: auto;
 }
+
+ ul {
+     list-style-type: none;
+     background-color: orange;
+     width: 450px;
+     float: right;
+     margin-right: 50px;
+     
+    }
+
+.survey-header {
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 33.48px;
+    margin-left: 71px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+h6, li p{
+    font-size: 16px;
+    line-height: 29.76px;
+}
+
+h6 {
+    font-weight: 700!important;
+
+}
+
+li p {
+    font-weight: 400;
+}
+
+.icon-div {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 25px;
+}
+
+.icon-div img {
+    padding-bottom: 50px;
+}
+
+.home {
+    margin-top: -27px;
+    background: red;
+}
+
 
 /* footer styling */
 .footer-container {
