@@ -1,3 +1,245 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
-    color: pink;
+  font-family: "Lato", sans-serif;
+}
+
+/* header styling */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 2.5rem;
+}
+
+.header-container {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  width: 189vh;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .header-container {
+    width: 100vh;
+    height: 31vh;
+  }
+}
+
+/* hero border  */
+.hero-logo img {
+  position: absolute;
+  top: 67px;
+  left: 492px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .hero-logo img{
+      width: 21em;
+      left: 13em;
+      top: 3em;
+      position: absolute;
+    }
+  }
+
+
+/* intro section styling */
+.intro-section {
+  position: static;
+  height: 862px;
+  left: 0px;
+  top: 403px;
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .intro-section {
+    width: 100vh;
+    flex-direction: column;
+    height: 200vh;
+    margin-top: -3em;
+  }
+}
+
+.section-content {
+  position: relative;
+  height: 704px;
+  margin-top: 56px;
+  margin-left: 131px;
+  margin-right: 131px;
+}
+
+.header-left-col {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 37.2px;
+  text-transform: capitalize;
+  color: #2b3237;
+}
+
+.txt-left-col,
+.second-txt-left-col {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33.48px;
+  padding-bottom: 15px;
+}
+
+.txt-box {
+  width: 473px;
+  position: absolute;
+  height: 599px;
+  margin-top: 30px;
+}
+
+/* survey container styling */
+
+.survey-highlights {
+  width: 604px;
+  height: 704px;
+  background: #e7f4f6;
+  border-radius: 10px;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .survey-highlights {
+    position: absolute;
+    margin-top: 700px;
+    margin-right: 100px;
+    right: -10em;
+  }
+}
+
+ul {
+  list-style-type: none;
+  width: 450px;
+  float: right;
+  margin-right: 50px;
+}
+
+.survey-header {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 33.48px;
+  margin-left: 71px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+h6,
+li p {
+  font-size: 16px;
+  line-height: 29.76px;
+}
+
+h6 {
+  font-weight: 700!important;
+}
+
+li p {
+  font-weight: 400;
+}
+
+.icon-div {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 25px;
+}
+
+.icon-div img {
+  padding-bottom: 50px;
+}
+
+.home {
+  margin-top: -27px;
+}
+
+/* footer styling */
+.footer-container {
+  background: #2b3237;
+  height: 348px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .footer-container {
+    width: 100vh;
+  }
+}
+
+.footer-header-txt {
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  line-height: 52.08px;
+  text-align: center;
+  height: 52px;
+  width: 523px;
+  font-weight: 700;
+}
+
+.text-input {
+  position: absolute;
+  width: 259px;
+  height: 51px;
+  left: calc(50% - 259px / 2 - 100.5px);
+  top: calc(50% - 51px / 2 + 33.25px);
+  background: #fafafa;
+  border: 1px solid #c0cad2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+::placeholder {
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #d1cece;
+  font-weight: 400;
+}
+
+span {
+  position: absolute;
+  width: 190px;
+  height: 51px;
+  left: calc(50% - 190px / 2 + 111px);
+  top: calc(50% - 51px / 2 + 33.25px);
+  background: #e7736b;
+  border-radius: 12px;
+}
+
+span:hover {
+    background: #66a1aa;
+}
+
+.footer-button-txt {
+  position: absolute;
+  width: 141px;
+  height: 37px;
+  left: calc(50% - 141px / 2 + 0.5px);
+  top: calc(50% - 37px / 2 + 1px);
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 37.2px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
 }
