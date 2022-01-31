@@ -39,32 +39,53 @@ header .hero-logo {
   top: -157px;
 }
 /* intro section styling */
+.intro-section {
+  position: static;
+  height: 862px;
+  left: 0px;
+  top: 403px;
+  background-color:#FFFFFF;
+}
+
+
+.header-left-col {
+  font-family: "Rubik", sans-serif!;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 37.2px;
+  text-transform: capitalize;
+  color: #2b3237;
+}
+
 .survey-highlights {
-  background: #e7f4f6;
+  width: 604px;
+  height: 704px;
+  /* background: #e7f4f6; */
+  background: pink;
   border-radius: 10px;
-  /* position: absolute; */
+  float: right;
+  margin-right: 100px;
 }
 
 /* footer styling */
 .footer-container {
   background: #2b3237;
   height: 348px;
-  bottom: 0px;
   position: absolute;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-h4 {
+.footer-header-txt{
   color: #ffffff;
   font-family: "Rubik", sans-serif;
-  font-size: 28px!important;
+  font-size: 28px;
   line-height: 52.08px;
   text-align: center;
   height: 52px;
   width: 523px;
-  font-weight: 700 !important;
+  font-weight: 700;
 }
 
 .text-input {
@@ -73,11 +94,20 @@ h4 {
   height: 51px;
   left: calc(50% - 259px / 2 - 100.5px);
   top: calc(50% - 51px / 2 + 33.25px);
-
   background: #fafafa;
   border: 1px solid #c0cad2;
   box-sizing: border-box;
   border-radius: 4px;
+  padding: 10px;
+}
+
+::placeholder {
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #d1cece;
+  font-weight: 400;
 }
 
 span {
@@ -90,7 +120,7 @@ span {
   border-radius: 12px;
 }
 
-h5 {
+.footer-button-txt{
   position: absolute;
   width: 141px;
   height: 37px;
@@ -98,7 +128,7 @@ h5 {
   top: calc(50% - 37px / 2 + 1px);
   font-family: "Rubik", sans-serif;
   font-style: normal;
-  font-weight: 700!important;
+  font-weight: 700;
   font-size: 20px;
   line-height: 37.2px;
   display: flex;
