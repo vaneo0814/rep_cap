@@ -8,7 +8,6 @@ body {
 }
 
 /* header styling */
-
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -41,7 +40,7 @@ body {
     .hero-logo img{
       width: 21em;
       left: 13em;
-      top: 2em;
+      top: 3em;
       position: absolute;
     }
   }
@@ -59,7 +58,6 @@ body {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .intro-section {
-    background-color: green;
     width: 100vh;
     flex-direction: column;
     height: 200vh;
@@ -68,7 +66,6 @@ body {
 }
 
 .section-content {
-  background: red;
   position: relative;
   height: 704px;
   margin-top: 56px;
@@ -87,7 +84,6 @@ body {
 
 .txt-left-col,
 .second-txt-left-col {
-  /* color: pink; */
   font-weight: 400;
   font-size: 18px;
   line-height: 33.48px;
@@ -95,8 +91,7 @@ body {
 }
 
 .txt-box {
-  /* background-color: orange; */
-  width: 462px;
+  width: 473px;
   position: absolute;
   height: 599px;
   margin-top: 30px;
@@ -107,8 +102,7 @@ body {
 .survey-highlights {
   width: 604px;
   height: 704px;
-  /* background: #e7f4f6; */
-  background: pink;
+  background: #e7f4f6;
   border-radius: 10px;
   margin-left: auto;
 }
@@ -125,7 +119,6 @@ body {
 
 ul {
   list-style-type: none;
-  background-color: orange;
   width: 450px;
   float: right;
   margin-right: 50px;
@@ -148,7 +141,7 @@ li p {
 }
 
 h6 {
-  font-weight: 700 !important;
+  font-weight: 700!important;
 }
 
 li p {
@@ -156,7 +149,6 @@ li p {
 }
 
 .icon-div {
-  background: yellow;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -169,7 +161,6 @@ li p {
 
 .home {
   margin-top: -27px;
-  background: red;
 }
 
 /* footer styling */
@@ -230,6 +221,10 @@ span {
   top: calc(50% - 51px / 2 + 33.25px);
   background: #e7736b;
   border-radius: 12px;
+}
+
+span:hover {
+    background: #66a1aa;
 }
 
 .footer-button-txt {
