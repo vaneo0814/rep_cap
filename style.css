@@ -229,9 +229,9 @@ span:hover {
 
 .footer-button-txt {
   position: absolute;
-  width: 141px;
+  width: 167px;
   height: 37px;
-  left: calc(50% - 141px / 2 + 0.5px);
+  left: calc(50% - 160px / 2 + 0.5px);
   top: calc(50% - 37px / 2 + 1px);
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -242,4 +242,6 @@ span:hover {
   align-items: center;
   text-align: center;
   color: #ffffff;
+  background: none;
+  border: none;
 }
