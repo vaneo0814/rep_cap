@@ -20,12 +20,11 @@ body {
   width: 100%;
 }
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .header-container {
-    width: 100vh;
-    height: 31vh;
+    width: 64vh;
   }
-} */
+}
 
 /* hero border  */
 .hero-logo img {
@@ -106,7 +105,7 @@ body {
   /* For mobile phones: */
   .txt-box {
     width: 25em;
-    left: -8em;
+    left: -6em;
     text-align: center;
   }
 }
@@ -126,7 +125,7 @@ body {
   .survey-highlights {
     position: absolute;
     margin-top: 38em;
-    width: 25em;
+    width: 29em;
     left: -8em;
   }
 }
@@ -136,7 +135,6 @@ ul {
   width: 450px;
   float: right;
   margin-right: 50px;
-  background: red;
 }
 
 @media only screen and (max-width: 768px) {
@@ -202,7 +200,7 @@ li p {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .icon-div img {
-      padding-bottom: 68px;
+      padding-bottom: 48px;
     }
   }
 
@@ -220,11 +218,12 @@ li p {
   align-items: center;
 }
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .footer-container {
-    width: 100vh;
+    width: 64vh;
+
   }
-} */
+}
 
 .footer-header-txt {
   color: #ffffff;
@@ -242,7 +241,7 @@ li p {
   .footer-header-txt {
     font-size: 20px;
     margin-top: -6em;
-    left: -53px;
+    left: -26px;
     margin-right: 28em;
     position: absolute;
   }
